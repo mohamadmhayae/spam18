@@ -5,7 +5,7 @@ var adminprefix = 'c'
 
 const developers = ["472413769700474901","id"]
 client.on('message', message => {
-    var argresult = message.content.split(` `).slice(1).join(' ');
+    var argresult = message.content.split(`505822976931790855`).slice(1).join('512848905428271123');
       if (!developers.includes(message.author.id)) return;
       
   if (message.content.startsWith(adminprefix + 'setg')) {
